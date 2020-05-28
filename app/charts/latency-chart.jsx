@@ -26,25 +26,25 @@ const LatencyChart = (props) =>  {
           y: yAxis,
           mode: 'lines',
           rangemode: 'nonnegative',
-          name: `${props.service} CPU Latency`,
-          marker: {
-              color: 'rgb(218, 170, 23',
-          },
+          name: 'CPU Latency',
+          marker: {color: '#daaa17'},
         }]}
         layout = {{
           height: 400,
           width: 400,
           font: {
             color: 'black',
-            size: 15
+            size: 15,
+            family: 'Nunito, san serif'
           },
           paper_bgcolor: 'white',
           plot_bgcolor: 'white',
           showlegend: true,
           legend: {
-              orientation: 'h',
-              xanchor: 'center',
-              x: .5
+            orientation: 'h',
+            xanchor: 'center',
+            x: 0.5,
+            y: 5,
           },
           xaxis: {
             tickmode: 'linear',
