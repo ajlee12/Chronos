@@ -1,6 +1,13 @@
 node_modules
 .eslintrc.js
-package-lock.json
 .DS_Store
+<<<<<<< HEAD
 user/
 dist/
+=======
+dist
+build
+coverage
+__tests__/**/__snapshots__
+release-builds
+>>>>>>> 96847a69e6e23bed5f984867e181704f485b084d
